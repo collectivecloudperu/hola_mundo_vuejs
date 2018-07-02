@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Tu primer Hola Mundo con Vue JS </title>
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">    
+
+</head>
+	<body>
+
+		<!-- P -->
+	    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	    <!-- 5 -->
+	    <ins class="adsbygoogle"
+	         style="display:block"
+	         data-ad-client="ca-pub-2390065838671224"
+	         data-ad-slot="2826072263"
+	         data-ad-format="auto"></ins>
+	    <script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	    </script>
+	    <!-- End P -->
+
+		<div class="container">
+
+			<h1>Tu primer Hola Mundo con Vue JS </h1>
+
+			    <div class="row">
+
+			        <div class="col-md-12">
+
+				        <div id="saludo">
+						  	{{ mensaje }}
+						</div>				
+
+					</div>
+
+				</div>
+
+
+			<footer align="center">				    	
+				Desarrollado por <a href="http://www.collectivecloudperu.com" target="_blank">Collective Cloud Perú</a>
+			</footer>
+
+		</div>
+
+		<script src="js/bootstrap.min.js"></script>
+
+	    <!-- Vue JS -->
+	    <!-- <script src="js/vue.js"></script> Versión para Desarrollo --> 
+	    
+	    <script src="js/vue.min.js"></script> <!-- Versión para Producción -->
+
+
+		<script type="text/javascript">
+			var app = new Vue({
+			  el: '#saludo',
+			  data: {
+			    mensaje: 'Hola Mundo !'
+			  }
+			})
+		</script>
+
+
+	</body>
+</html>
